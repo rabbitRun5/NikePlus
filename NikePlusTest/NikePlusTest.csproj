@@ -57,13 +57,13 @@
     <Compile Include="NikeExporterUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RabbitRunForms\RabbitRunForms.csproj">
-      <Project>{4A1A3BC1-B663-4747-896E-43330E3D3D4D}</Project>
-      <Name>RabbitRunForms</Name>
-    </ProjectReference>
+    <Folder Include="MockObjects\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MockObjects\" />
+    <ProjectReference Include="..\NikePlusApi\NikePlusApi.csproj">
+      <Project>{acf0d5cb-2f13-47cd-bdbb-7f97662b080c}</Project>
+      <Name>NikePlusApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

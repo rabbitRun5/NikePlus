@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NikePlusApi", "NikePlusApi.csproj", "{ACF0D5CB-2F13-47CD-BDBB-7F97662B080C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNikePlusApi", "..\TestNikeConnector\TestNikePlusApi.csproj", "{9477446C-03DE-4F0A-AC3F-700D35549A56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF0D5CB-2F13-47CD-BDBB-7F97662B080C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF0D5CB-2F13-47CD-BDBB-7F97662B080C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF0D5CB-2F13-47CD-BDBB-7F97662B080C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF0D5CB-2F13-47CD-BDBB-7F97662B080C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9477446C-03DE-4F0A-AC3F-700D35549A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9477446C-03DE-4F0A-AC3F-700D35549A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9477446C-03DE-4F0A-AC3F-700D35549A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9477446C-03DE-4F0A-AC3F-700D35549A56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
