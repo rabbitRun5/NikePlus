@@ -1,19 +1,14 @@
-﻿using System;
+﻿using NikePlusApi.JsonObjects;
+using OGL_Library;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Text;
-using System.Xml;
-using GMap.NET;
-using NikePlusApi.JsonObjects;
-using OGL_Library;
 
 namespace NikePlusApi
 {
     public class NikeExporter
     {
-        private int test;
-        private int test2;
         private readonly NikeConnector connector;
 
         public NikeExporter(NikeConnector nikeConnnector)
